@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './map.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,8 +28,6 @@ class _MapPageState extends State<MapPage> {
     return Scaffold(
         appBar: AppBar(title: Text("Maps Example")),
         body: SafeArea(
-            child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Center(child: Text("Maps Example")))));
+            child: Padding(padding: EdgeInsets.all(20), child: Map())));
   }
 }
