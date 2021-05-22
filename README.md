@@ -2,6 +2,8 @@
 
 An example of `google_maps_flutter` where taking a screenshot of the map causes the app to crash.
 
+This bug has been filed as [flutter/issues/81690](https://github.com/flutter/flutter/issues/81690)
+
 ## Building Instructions
 
 Create `ios/Runner/Constants.swift` with content such as:
